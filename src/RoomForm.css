@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #e4e4e4;
+}
+
+.hide {
+    display: none;
+}
+
+.wrap {
+    width: 350px;
+    overflow: hidden;
+    margin: 30px auto auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.wrap input[type="number"] {
+    width: 340px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.wrap input[type="submit"] {
+    width: 352px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.wrap select {
+    height: 34px;
+    width: 240px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrap .btn-login {
+    padding: 5px;
+    width: 412px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.form-goup > * {
+    display: block;
+}
+
+.form-section {
+    margin-bottom: 15px;
+
+}
+
+.room-current-command input{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-size: 0.9em;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.room-current-parent {
+    font-size: 0.8em;
+    display: flex;
+}
+
+.room-current {
+    width: 50%;
+}
+
+.room-current-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    width: 125px;
+    border-radius: 5px;
+    background: #e6e6e6;
+    padding: 3px;
+}
