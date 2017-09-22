@@ -1,4 +1,5 @@
 import React from 'react';
+import './CurrentRoom.css';
 
 function PropertyList(props) {
   const roomType = props.room.constructor.name;
@@ -64,7 +65,12 @@ export default class CurrentRoom extends React.Component {
           <div className="form-group">
             <label>
               Enter commands:
-              <input type="text" value={this.state.currentCommand} onChange={this.handleCommandChange} />
+              <span className="tooltip" title="[L]eft, [R]ight, [F]orward">
+                <input
+                  type="text"
+                  value={this.state.currentCommand}
+                  onChange={this.handleCommandChange} />
+              </span>
             </label>
           </div>
         </form>

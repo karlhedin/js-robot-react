@@ -43,6 +43,13 @@ Swedish:
 * **H** - sväng Höger
 * **F** - Gå framåt
 
+## Development
+
+### Running the dev server
+To run the dev server with all the awesomeness from [create-react-app](https://github.com/facebookincubator/create-react-app) run:
+
+js-robot-react will now be running on http://localhost:3000/
+
 ### Running the tests
 
 The tests can be run like so:
