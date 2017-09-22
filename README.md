@@ -47,6 +47,11 @@ Swedish:
 
 ### Running the dev server
 To run the dev server with all the awesomeness from [create-react-app](https://github.com/facebookincubator/create-react-app) run:
+```bash
+yarn start
+# or 
+npm start
+```
 
 js-robot-react will now be running on http://localhost:3000/
 
